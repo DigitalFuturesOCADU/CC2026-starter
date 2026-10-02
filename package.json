@@ -1,0 +1,12 @@
+{
+  "name": "cc2026-starter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A p5.js 2 and p5-phone starter for Creation & Computation 2026.",
+  "scripts": {
+    "phone": "node scripts/phone.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
