@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Phone Sketch</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #141414;
+    }
+    canvas {
+      touch-action: none; /* a finger on the canvas never scrolls the page */
+    }
+  </style>
+
+  <!-- p5.js 2.x -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@2.2.3/lib/p5.js"></script>
+
+  <!-- p5.sound: the microphone, recordings and tones -->
+  <script src="https://cdn.jsdelivr.net/npm/p5.sound@0.3.0/dist/p5.sound.min.js"></script>
+
+  <!-- Tone.js: loops and synths. Remove the comment marks to use it -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/tone@15.1.22/build/Tone.js"></script> -->
+
+  <!-- p5-phone: the permission tap, the gesture lock, the sensors and the flashlight -->
+  <script src="https://cdn.jsdelivr.net/npm/p5-phone@1.15.0/dist/p5-phone.min.js"></script>
+
+  <!-- on a laptop, a QR code of this page, to open it on a phone. only on the https Pages address -->
+  <script>
+    if (location.protocol === 'https:' && window.self === window.top) {
+      addEventListener('load', function () { showDesktopQr(); });
+    }
+  </script>
+</head>
+<body>
+  <!-- one file per person: each of you writes your functions in your own file.
+       add a line for each file before sketch.js, for example:
+  <script src="ana.js"></script>
+  -->
+  <script src="sketch.js"></script>
+</body>
+</html>

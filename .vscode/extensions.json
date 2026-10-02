@@ -1,0 +1,7 @@
+{
+  // VSCodium offers to install this when you open the folder.
+  // Live Server previews index.html on your laptop.
+  "recommendations": [
+    "ritwickdey.LiveServer"
+  ]
+}
