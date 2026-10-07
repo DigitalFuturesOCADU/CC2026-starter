@@ -8,7 +8,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   lockGestures();                  // no scrolling, zooming or pull to refresh
   angleMode(DEGREES);              // tilt in degrees. p5.js uses radians unless you say so
-  enableSensorTap('Tap to start'); // change this to the permissions your sketch needs
+  enableGyroTap('Tap to start'); // change this to the permissions your sketch needs
 }
 
 // written by: name
